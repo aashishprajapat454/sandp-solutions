@@ -9,9 +9,9 @@ function toggleTheme() {
     
     // Change the button text based on the current theme
     if (body.classList.contains('dark-theme')) {
-        themeButton.textContent = 'Dark';
-    } else {
         themeButton.textContent = 'Light';
+    } else {
+        themeButton.textContent = 'Dark';
     }
 }
 
